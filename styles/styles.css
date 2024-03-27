@@ -1,1 +1,12 @@
-h1 {font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 40px;}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    font-size: 40px;
+}
+
+
+p {
+    color: rgb(62, 152, 255);
+}
