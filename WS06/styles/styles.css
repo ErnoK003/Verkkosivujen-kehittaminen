@@ -4,6 +4,7 @@ body {
     padding-left: 2%;
     padding-right: 2%;
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
@@ -37,15 +38,10 @@ body {
     left: 13%;
 }
 
-.extlist {
-    list-style-type: none;
-    position: relative;
-    left: -12px;
-
-}
 .intlist{
     padding-top: 4px;
 }
+
 
 li {
     padding: 0;
@@ -58,21 +54,44 @@ li {
 li a {
     text-decoration: none;
 }
+.extlist {
+    list-style-type: none;
+    position: relative;
+    left: -12px;
+    line-height: 30px;
+    display: block;
+    padding-right: 25px;
+}
+.sisalinkki:hover {
+    color: red;
+    text-decoration: none;
+}
+
 .sectionleft {
     width: 70%;
     height: 89%;
-    background-color: brown;
+    background-color: teal;
     position: absolute;
     left: 14%;
     text-align: left;
     margin-left: 0.48%;
-    
+}
+.ltext {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 28px;
 }
 .sectionright {
     width: 14.1%;
-    background-color: aqua;
+    background-color: gainsboro;
     position: absolute;
     text-align: center;
     height: 89%;
     right: 2%;
+    font-size: 17px;
+}
+
+.rkuva {
+    width: 95%;
 }
