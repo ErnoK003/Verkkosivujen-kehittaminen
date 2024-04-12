@@ -7,7 +7,6 @@ body {
     background-color: white;
     background: var(--background);
     color: var(--fontColor);
-    background-image: url("D:/Kuvat/Valmiit/Talvikuva.jpg");
     background-size: cover;
     background-repeat: repeat;
 }

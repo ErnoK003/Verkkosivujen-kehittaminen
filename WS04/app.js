@@ -11,5 +11,4 @@ switcher.addEventListener("click", function(){
         this.textContent="Light";
     }
     console.log("Tämän hetkinen moodi: "+className)
-    
 });

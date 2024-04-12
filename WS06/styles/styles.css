@@ -107,3 +107,11 @@ li a {
 .intlist a {
     color: blue;
 }
+
+h3 {
+    text-align: center;
+}
+
+.kuvateksti {
+    text-align: center;
+}
