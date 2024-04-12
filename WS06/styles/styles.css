@@ -19,7 +19,7 @@ body {
 .extbar {
     background-color: rgb(92, 92, 92);
     width: 12.5%;
-    height: 89%;
+    height: 100%;
     position: absolute;
     margin: 0;
     padding: 0;
@@ -69,7 +69,7 @@ li a {
 
 .sectionleft {
     width: 70%;
-    height: 89%;
+    height: 100%;
     background-color: teal;
     position: absolute;
     left: 14%;
@@ -89,7 +89,7 @@ li a {
     background-color: gainsboro;
     position: absolute;
     text-align: center;
-    height: 89%;
+    height: 100%;
     right: 2%;
     font-size: 17px;
     overflow:auto;
