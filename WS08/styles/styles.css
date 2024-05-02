@@ -31,6 +31,7 @@ li {
     padding-top: 60px;
     padding-bottom: 43px;
     margin-right: 0%;
+    width: 100%;
 
 }
 h1 {
@@ -76,14 +77,14 @@ p {
 .yteksti {
     margin-left: 2%;
 }
-.peruskoulu {
-    left: 10rem;
-}
-.lukio {
-    left: 20rem;
 
-}
 .kohtajanalla {
     list-style-type: none;
-    
+    overflow: hidden;
+}
+dl li {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1.3rem;
 }
