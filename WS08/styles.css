@@ -1,11 +1,12 @@
 a {
     text-decoration: none;
+    color: rgb(0, 195, 255);
 }
 .nav {
     list-style-type: none;
     font-weight: bold;
 }
-.navigation-fluid {
+.navigation {
     background-image: linear-gradient(black, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.726), transparent);
     margin-top: 20px;
 }
@@ -18,8 +19,15 @@ li {
 
 .container-fluid {
     background-image: url(talvikuva-jpg.jpg);
-    background-position-y: center;
+    background-position-y: 1050px;
+    background-position-x: center;
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 43px;
+}
+h1 {
+    color: rgb(125, 0, 241);
+}
+h2 {
+    font-size: 16px;
 }
