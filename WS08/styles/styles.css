@@ -48,6 +48,18 @@ h2 {
     align-self: center;
     margin-top: 0.8%;
 }
+.solid {
+    border: 4px solid;
+    border-radius: 4px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.aika {
+    text-align: center;
+}
+
 .sectionl {
     margin-left: 2%;
 }
@@ -60,4 +72,18 @@ h2 {
 }
 p {
     font-size: 1.2rem;
+}
+.yteksti {
+    margin-left: 2%;
+}
+.peruskoulu {
+    left: 10rem;
+}
+.lukio {
+    left: 20rem;
+
+}
+.kohtajanalla {
+    list-style-type: none;
+    
 }
