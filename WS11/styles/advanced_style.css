@@ -1,0 +1,36 @@
+.box {
+    background-color: aquamarine;
+    box-shadow: 5px 5px rgba(84, 168, 140, 0.534);
+    border: 1px solid red;
+    width: fit-content;
+}
+.boxtext {
+    text-shadow: 3px 2px white;
+    font-size: 30px;
+}
+.kuvabox {
+    background-image: url(../images/KappaContainer.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: cover;
+    color: white;
+    font-size: 200px;
+}
+a {
+    transition: ease 0.5s;
+    color: black;
+}
+a:hover {
+    transition: ease 0.2s;
+    color: red;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    a {
+        color: white;
+    }
+}
