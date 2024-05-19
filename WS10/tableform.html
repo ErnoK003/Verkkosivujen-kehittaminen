@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/styletable.css">
+        <title>Taulukot</title>
+    </head>
+
+    <body>
+        <table>
+            <caption>Osoitetaulukko</caption>
+            <tr>
+                <th colspan="3">Otsikko</th>
+            </tr>
+            <tr>
+                <td>Etunimi</td>
+                <td>Erno</td>
+                <td>Tauno</td>
+            </tr>
+            <tr>
+                <td>Sukunimi</td>
+                <td>Korhonen</td>
+                <td>Saari</td>
+            </tr>
+            <tr>
+                <td>Lähiosoite</td>
+                <td>Jotainkatu 22</td>
+                <td>Katujenkatu 55</td>
+            </tr>
+            <tr>
+                <td>Paikkakunta</td>
+                <td>Turgu</td>
+                <td>Oolu</td>
+            </tr>
+        </table>
+        <form>
+            <fieldset>
+                <legend>Rekisteröidy</legend>
+                Nimi: <input type="text" name="name" required> <br>
+                Sukunimi: <input type="text" name="lastname" required> <br>
+                Email: <input type="text" name="email" required> <br>
+                <textarea rows="4" cols="80">Jätä kommentti</textarea> <br>
+                Tilaa uutiskirje <input type="checkbox" name="uutiskirje"><br>
+                <label id="valitse">Valitse kulkuväline:</label>
+                <select name="valitse">
+                    <option value="auto">Auto</option>
+                    <option value="polkupyörä">Polkupyörä</option>
+                    <option value="bussi">Bussi</option>
+                </select><br>
+                <input type="submit" value="Add new user">
+            </fieldset>
+        </form>
+
+    </body>
