@@ -1,3 +1,6 @@
 .navpfp {
     width: 2.5rem;
 }
+li {
+    list-style-position: inside;
+}
