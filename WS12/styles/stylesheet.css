@@ -4,3 +4,45 @@
 li {
     list-style-position: inside;
 }
+.listlink {
+    list-style-type: none;
+}
+.past {
+    margin-bottom: 2rem;
+}
+.sly23 {
+    max-width: 24rem;
+}
+.rac3 {
+    max-width: 12rem;
+}
+.wow {
+    max-width: 12rem;
+}
+figcaption {
+    opacity: 0%;
+    transition: 0.5s ease;
+}
+img {
+    transition: 0.5s ease;
+}
+@media (min-width: 768px) {
+    figure:hover figcaption{
+        transition: 0.2s ease;
+        opacity: 100%;
+    }
+}
+@media (min-width: 768px) {
+    figure:hover img{
+        transition: 0.2s ease;
+        box-shadow: 0.3rem 0.3rem rgb(36, 0, 0);
+    }
+}
+@media (max-width: 768px) {
+    figcaption{
+        opacity: 100%;
+    }
+}
+.achi {
+    margin-bottom: 1rem;
+}
