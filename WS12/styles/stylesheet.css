@@ -4,6 +4,10 @@
 h1 {
     color: rgb(34, 216, 207);
 }
+.backpic {
+    max-width: 20rem;
+    margin-bottom: 1rem;
+}
 li {
     list-style-position: inside;
 }
