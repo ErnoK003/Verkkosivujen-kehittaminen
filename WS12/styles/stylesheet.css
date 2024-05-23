@@ -1,10 +1,14 @@
 .navpfp {
     width: 2.5rem;
 }
+h1 {
+    color: rgb(34, 216, 207);
+}
 li {
     list-style-position: inside;
 }
 .listlink {
+    margin-top: 1rem;
     list-style-type: none;
 }
 .past {
@@ -16,8 +20,11 @@ li {
 .rac3 {
     max-width: 12rem;
 }
-.wow {
+.wowpic {
     max-width: 12rem;
+}
+.cs2pic {
+    max-width: 14.4rem;
 }
 figcaption {
     opacity: 0%;
@@ -45,4 +52,15 @@ img {
 }
 .achi {
     margin-bottom: 1rem;
+}
+td{
+    border-right: 2px solid rgb(85, 85, 85);
+    padding: 2px;
+}
+.trpos {
+    border-top: 2px solid rgb(85, 85, 85);
+    border-bottom: 2px solid rgb(85, 85, 85);
+}
+table {
+    margin-bottom: 2rem;
 }
